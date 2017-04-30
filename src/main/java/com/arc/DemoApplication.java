@@ -13,7 +13,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 	@RequestMapping("/")
 	public String home(){
 
-		return "Hello World from Archinnova April";
+		return "Hello World from Archinnova April 30";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
