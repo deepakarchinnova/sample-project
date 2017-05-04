@@ -14,7 +14,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 	public String home(){
 
 		return "Hello World from Archinnova on April";
-		
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
