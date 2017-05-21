@@ -14,6 +14,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 	public String home(){
 
 		return "Hello World from Archinnova - from Archinnova"
+			
 
 	}
 	public static void main(String[] args) {
