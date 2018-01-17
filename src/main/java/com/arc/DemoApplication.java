@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class DemoApplication extends SpringBootServletInitializer {
-	
+
 	@RequestMapping("/")
 	public String home(){
 
-		
-		return "Hello World - Feature A";
-		
-			
+
+		return "Hello World - feature-US#2842  fixed";
+
+
 
 	}
 	public static void main(String[] args) {
