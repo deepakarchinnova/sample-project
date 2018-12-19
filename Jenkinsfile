@@ -8,10 +8,11 @@ pipeline {
       }
     }
      stage('SonarQube analysis') {
+       echo 'Hello World'
      // requires SonarQube Scanner 2.8+
-       def scannerHome = tool 'SonarQube Scanner 3.2';
-       withSonarQubeEnv('SonarQube') {
-       bat "${scannerHome}/bin/sonar-scanner"
+     // def scannerHome = tool 'SonarQube Scanner 3.2';
+     //  withSonarQubeEnv('SonarQube') {
+     //  bat "${scannerHome}/bin/sonar-scanner"
        }
     }
   }
