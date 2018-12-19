@@ -11,7 +11,7 @@ pipeline {
       steps {
         withSonarQubeEnv('SonarQube') {
           withMaven(maven: 'Maven-3.3.9') {
-            sh 'mvn clean package sonar:sonar'
+            bat 'mvn clean package sonar:sonar'
           }
 
         }
