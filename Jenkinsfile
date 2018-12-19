@@ -12,7 +12,7 @@ pipeline {
        def scannerHome = tool 'SonarQube Scanner 3.2';
        withSonarQubeEnv('SonarQube') {
        bat "${scannerHome}/bin/sonar-scanner"
-    
+       }
     }
   }
 }
