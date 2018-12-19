@@ -7,10 +7,13 @@ pipeline {
         git 'https://github.com/deepakarchinnova/sample-project'
       }
     }
-    stage('SonarQube analysis') {
+    stage('build && SonarQube analysis') {
       steps {
-        withSonarQubeEnv('SonarQube') {
-          bat "${scannerHome}/bin/sonar-scanner"
+        withSonarQubeEnv('My SonarQube Server') {
+          withMaven(maven: 'Maven 3.5') {
+            sh 'mvn clean package sonar:sonar'
+          }
+
         }
 
       }
