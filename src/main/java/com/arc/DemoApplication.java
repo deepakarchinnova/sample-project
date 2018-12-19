@@ -14,7 +14,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 	public String home(){
 
 
-		return "Hello World - feature-US#2842  fixed";
+		return "Hello World";
 
 
 
