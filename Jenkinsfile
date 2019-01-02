@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout') {
+    stage('Get Code') {
       steps {
         echo 'Hello World'
         git 'https://github.com/deepakarchinnova/sample-project'
