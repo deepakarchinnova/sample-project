@@ -1,7 +1,7 @@
 ## sample-project
 sample-project
 
-## SonarQube Analysis
+## SonarQube Analysis - Arun
 Run the below command for SonarQube Analysis
 
 ''''
