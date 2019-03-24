@@ -1,3 +1,9 @@
+---
+name: User story
+about: A valuable increment of functionality, testable by the users
+
+---
+
 As a ‹role›, I'd like to ‹feature short description› [ , in order to ‹value it adds›. ]
 
 ## Conditions of satisfaction
