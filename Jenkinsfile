@@ -7,7 +7,7 @@ pipeline {
         git 'https://github.com/deepakarchinnova/sample-project'
       }
     }
-    stage('build && SonarQube analysis') {
+    stage('build && SonarQube analysis  !@##') {
       steps {
         withSonarQubeEnv('SonarQube') {
           withMaven(maven: 'Maven-3.3.9') {
