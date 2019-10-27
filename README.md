@@ -15,3 +15,6 @@ mvn sonar:sonar \
   -Dsonar.login=4d9a6062e2eb870228c51e6226531971c80ddbd8
 
 ''''
+
+
+bot-test
