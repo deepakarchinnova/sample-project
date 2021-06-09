@@ -19,4 +19,6 @@ mvn sonar:sonar \
 
 bot-test
 
-add a line for Business use case 1
+
+Business use case 2
+
